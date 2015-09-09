@@ -10,11 +10,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 //import net.sf.jasperreports.engine.*;
 //import net.sf.jasperreports.view.JRViewer;
 
 
-/**JAZMIN JODE MUCHO
+/**
  *
  * @author Sala221
  */
@@ -23,11 +24,16 @@ public class Pantalla extends javax.swing.JFrame {
     JDialog viewer = new JDialog(new JFrame(),"Reporte",true);
     Conexion.Conexion con = new Conexion.Conexion("root","","cjunibague","137.0.0.1");
 
-    /**
+    /** 
      * Creates new form Pantalla
      */
+    
+    
     public Pantalla() {
         initComponents();
+        
+        JOptionPane.showMessageDialog(null,"ya esta el cambio");
+        
         //EFDRFRF//
     }
     /*

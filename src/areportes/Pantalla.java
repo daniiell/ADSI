@@ -28,6 +28,7 @@ public class Pantalla extends javax.swing.JFrame {
      */
     public Pantalla() {
         initComponents();
+        //EFDRFRF//
     }
     /*
     /**
